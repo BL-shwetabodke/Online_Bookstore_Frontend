@@ -1,0 +1,29 @@
+.searchBox{
+    display: flex;
+    width: 50%;
+    flex-direction: row-reverse;
+}
+.searchBox #searchText{
+    float: right;
+    height: 50px;
+    width: 0;
+    border-radius: 40%;
+    border: 0;
+    padding: 0 50px 0 0;
+    transition: 1s;
+}
+
+.searchBox #searchText:focus{
+    width: 400px;
+    padding-left: 20px;
+    border-radius: 0%;
+}
+
+.searchBox:before{
+    content: "\f002";
+    font: normal normal normal 14px/1 FontAwesome;
+    position: absolute;
+    right: 18px;
+    line-height: 50px;
+    color: #000000;
+}

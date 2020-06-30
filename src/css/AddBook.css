@@ -1,0 +1,146 @@
+.container {
+    padding-top: 2% !important;
+    justify-content: center;
+    margin-top: 5% !important;
+}
+
+.MuiGrid-spacing-xs-1 > .MuiGrid-item {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.card {
+    width: 30%;
+    margin: 0;
+    padding: 0;
+}
+
+.selectBtn {
+    width: fit-content;
+}
+
+.fileInputDiv {
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imageIcon {
+    position: absolute !important;
+    margin-top: -1.8% !important;
+    margin-left: 16.5% !important;
+}
+
+.imageUrl {
+    height: 7px;
+    width: 170% !important;
+}
+
+.input {
+    width: 200px;
+}
+
+.MuiCardContent-root {
+    padding: 3px 50px;
+}
+
+.btn {
+    margin: 5px 5px 5px 10px !important;
+    padding: 5px;
+    width: 120px;
+}
+
+h3 {
+    padding: 3px;
+    margin: 3px;
+}
+
+@media only screen and (max-width: 768px) {
+    .root {
+        width: 80%;
+    }
+
+    .MuiCardContent-root {
+        padding: 5px 10px;
+    }
+
+    .card {
+        width: 100%;
+        margin: auto;
+    }
+
+    .container {
+        padding-top: 15% !important;
+        height: 138vh;
+    }
+
+    .imageIcon {
+        position: absolute !important;
+        margin-top: -12.5% !important;
+        margin-left: 39% !important;
+    }
+
+    .imageUrl {
+        width: 133% !important;
+        margin-bottom: 15% !important;
+    }
+
+}
+
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (-webkit-min-device-pixel-ratio: 1) {
+    .root {
+        width: 35%;
+    }
+
+    .card {
+        width: 75%;
+        margin: auto;
+    }
+
+    .container {
+        height: 100vh;
+    }
+    .imageIcon {
+        position: absolute !important;
+        margin-top: -6% !important;
+        margin-left: 12% !important;
+    }
+
+    .imageUrl {
+        width: 112% !important;
+        margin-bottom: 15% !important;
+    }
+}
+
+@media only screen and (width: 1024px){
+    .imageIcon {
+        position: absolute !important;
+        margin-top: -4.3% !important;
+        margin-left: 13.8% !important;
+    }
+    .imageUrl {
+        width: 133% !important;
+        margin-bottom: 15% !important;
+    }
+}
+
+@media only screen
+and (min-device-width: 1024px)
+and (max-device-width: 1500px)
+and (-webkit-min-device-pixel-ratio: 1) {
+    .root {
+        width: 35%;
+    }
+
+    .card {
+        width: 65%;
+        margin: auto;
+    }
+
+    .imageUrl {
+        width: 18vw;
+    }
+}
